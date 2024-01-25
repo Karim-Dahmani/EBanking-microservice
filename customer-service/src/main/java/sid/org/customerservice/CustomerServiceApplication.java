@@ -12,8 +12,8 @@ import java.util.List;
 
 @SpringBootApplication
 public class CustomerServiceApplication {
-@Autowired
-CustomerRepository customerRepository;
+    @Autowired
+	CustomerRepository customerRepository;
 	public static void main(String[] args) {
 		SpringApplication.run(CustomerServiceApplication.class, args);
 	}

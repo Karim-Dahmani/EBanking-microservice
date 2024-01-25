@@ -10,11 +10,13 @@
         <module name="customer-service" />
         <module name="gateway-service" />
         <module name="bank-service" />
+        <module name="discovery-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="bank-service" target="18" />
       <module name="customer-service" target="18" />
+      <module name="discovery-service" target="18" />
       <module name="gateway-service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -22,6 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="bank-service" options="-parameters" />
       <module name="customer-service" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
       <module name="gateway-service" options="-parameters" />
     </option>
   </component>
